@@ -14,6 +14,6 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Jenkins CI/CD with JDK 21! 这是测试自动触发 Webhook！";
+        return "Hello from Jenkins CI/CD with JDK 21! 这是测试自动触发 Webhook！！";
     }
 }
